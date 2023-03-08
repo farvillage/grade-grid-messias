@@ -7,11 +7,10 @@ function calculateGrid(event) {
     if (readGrades1 == "" | finalGrade == 0){
         alert("Inserir nota para continuar!")
         return
-    
-    if (readGrades2 == "" | finalGrade == 0)
+    }
+    if (readGrades2 == "" | finalGrade == 0){
         alert("Inserir nota para continuar!")
         return
-    
     }
     
     const total = (readGrades1 + readGrades2) / 2;
