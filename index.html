@@ -1,39 +1,41 @@
 <!DOCTYPE html>
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Grade de Notas</title>
-</head>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Grade de Notas</title>
+  </head>
 
-<body>
-  <div id="gradeGrid">
-    <div>
+  <body>
+    <div id="gradeGrid">
+      <div>
         <h1> <class='title'>Grade de Notas</class> </h1>  
+      </div>
     </div>
-  </div>
 
-<form class="readGrades1" id="readGrades1" for="grade1">
-   <label>
+  <form class="readGrades1" id="readGrades1" for="grade1">
+    <label>
      <p>Inserir nota 1:</p>
        <p>
          N1 <input type="number" name= readGrades1 id="readGrades1" min="0" max="10" required>
        </p>
-   </label>
+    </label>
    
-   <label class="readGrades2" id="readGrades2" for="grade2">
-     <p>Inserir nota 2:</p>
-       <p>
+    <label class="readGrades2" id="readGrades2" for="grade2">
+      <p>Inserir nota 2:</p>
+        <p>
         N2 <input type="number" name="readGrades2" id="readGrades2" min="0" max="10" required>
-       </p>
-   </label>
+        </p>
+    </label>
 
-   <label class="finalGrade" id="finalGrade" for="final">
-     <p>Nota final:
-       <button type="submit" class="gradeSubmit">Calcular nota!</button>
-     </p>
-   </label>
-</form>
-<script type="text/javascript" src="scripts.js"></script>
-</body>
+    <label class="finalGrade" id="finalGrade" for="final">
+      <p>Nota final:
+        <button type="submit" class="gradeSubmit">Calcular nota!</button>
+      </p>
+    </label>
+ </form>
+  <script type="text/javascript" src="scripts.js"></script>
+ </body>
+</html>
